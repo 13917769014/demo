@@ -11,8 +11,10 @@ public class App {
 	public static void main(String[] args) throws Exception {
 		// String svgpath =
 		// "C:\\Users\\HC\\Desktop\\html\\svg\\svgconvert\\test.svg";
-		//123 321
+		//123
+
 		String svgpath = "C:\\Users\\Vincent\\Desktop\\11.svg";
+		//功能1
 		File svgFile = new File(svgpath);
 		String name = svgFile.getName();
 		name = name.substring(0, name.lastIndexOf("."));
