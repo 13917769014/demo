@@ -11,7 +11,7 @@ public class App {
 	public static void main(String[] args) throws Exception {
 		// String svgpath =
 		// "C:\\Users\\HC\\Desktop\\html\\svg\\svgconvert\\test.svg";
-		//123
+		//123 321
 		String svgpath = "C:\\Users\\Vincent\\Desktop\\11.svg";
 		File svgFile = new File(svgpath);
 		String name = svgFile.getName();
